@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+      box-sizing: border-box;
+    height: 920px;
+    width: 100%;
+    background-image: url(neon.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+nav{
+    display: flex;
+    width: 94%;
+    margin:auto;
+    padding: 30px 0px;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+ 
+}
+
+nav ul li {
+    display: inline-block;
+    list-style:none;
+    margin: 10px 10px;
+    padding-right: 0px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color: rgb(32, 240, 240);
+    font-weight: bold;
+
+}
+
+nav ul li a:hover{
+    color: rgb(248, 85, 10);
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 25%;
+    margin-bottom: 0%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #f5f4e9;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+    
+}
+.detel h2{
+    font-size: 18px;
+    color: #f5f4e9;
+    margin-bottom: 20px;
+}
+.detel p{
+    color: rgb(235, 213, 213);
+    line-height: 22px;
+  padding-right: 2px;
+}
+
+.detel a{
+    background: #daa83d;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 5px;
+}
+
+
+
+
+.social{
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.social a{
+    font-size: 30px;
+    color: #f10c0c;
+    margin-right: 20px;
+}
+
+.social a:hover{
+    color: orange;
+}
